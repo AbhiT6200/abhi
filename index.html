@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>body{
+    background-color: aquamarine;
+}
+
+.card{
+    border: 3px solid lightgray;
+    border-radius: 16px;
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 400ms;
+    background-color: white;
+}
+h1{
+    border: solid yellow 5px;
+    border-radius: 10px;
+    background-color: tomato;
+    color: blue;
+    text-shadow: 1px 4px 2px yellow, 0 0 1em yellow, 0 0 1.4em yellow;
+}
+.header{
+    margin: 20px;
+    align-items: flex-end;
+    justify-content: end;
+    display: flex;
+    padding: 10px;
+
+}
+.card:hover{
+    transform: rotate(180deg);
+    width: 360px;
+    transform: rotate(360deg);
+    border-radius: 22px;
+    background-color: hotpink;
+    border: 1px solid rgb(244, 252, 255);
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.desc{
+    font-size: 14px;
+    border: solid antiquewhite 2px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px;
+    margin: 0;
+    background-color: lightblue;
+}
+.h{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: solid yellow 2px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 2px yellow, 0 0 1em yellow, 0 0 1.4em yellow;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    margin-left: 80px;
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+
+}</style>
+</head>
+<body>
+    <div class="h">
+        <H1>WELCOME</H1>
+    </div>
+    <div class="header">
+        <button>HOME</button>
+        &emsp;<button>LOGIN</button>
+        &emsp;<button width="">ABOUT.US</button>
+        &emsp;<button>ACCCOUNT</button>
+    </div>
+    <hr>
+    <h2>Your favorite food...</h2>
+    <div class="flexbox">
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?burger" class="card-img" alt="">
+            <div class="flex">
+                <h3>Veg Supreme Burger</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+              </svg>
+            </div>
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptas iusto maiores earum neque.</p>
+        </div>
+    
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?salad" class="card-img" alt="">
+            <div class="flex">
+                <h3>Green Salad</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+              </svg>
+            </div>
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptas iusto maiores earum neque.</p>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?pizza" class="card-img" alt="">
+            <div class="flex">
+                <h3>Veg Supreme Pizza</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+              </svg>
+            </div>
+            
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptas iusto maiores earum neque.</p>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?noodles" class="card-img" alt="">
+            <div class="flex">
+            <h3>noodles</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+              </svg>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ullam, sit quibusdam non inventore tenetur architecto aut libero dolores temporibus. </p>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?biriyani" class="card-img" alt="">
+            <div class="flex">
+                <h3>Chicken fry</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+              </svg>
+            </div>
+            
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptas iusto maiores earum neque.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
